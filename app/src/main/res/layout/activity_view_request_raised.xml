@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".subscriber.viewalldetails.ViewRequestRaised"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Request Raised"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="Name"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/raisedname"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/button_back1"
+                android:imeOptions="actionDone"
+                android:inputType="textPersonName"
+                android:paddingLeft="20dp"
+                android:paddingTop="13dp"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+                android:text="Mobile Number"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+
+
+            <TextView
+                android:id="@+id/raisedmobileno"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/button_back1"
+                android:imeOptions="actionDone"
+                android:inputType="phone"
+                android:paddingLeft="20dp"
+                android:paddingTop="13dp"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+                android:text="EMail id"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+
+
+            <TextView
+                android:id="@+id/raisedemailid"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/button_back1"
+                android:imeOptions="actionDone"
+                android:inputType="phone"
+                android:paddingLeft="20dp"
+                android:paddingTop="13dp"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+                android:text="Subject"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+
+
+            <TextView
+                android:id="@+id/raisedsubject"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/button_back1"
+                android:imeOptions="actionDone"
+                android:inputType="phone"
+                android:paddingLeft="20dp"
+                android:paddingTop="13dp"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+                android:text="Status"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+
+
+            <TextView
+                android:id="@+id/raisedstatues"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/button_back1"
+                android:imeOptions="actionDone"
+                android:inputType="phone"
+                android:paddingLeft="20dp"
+                android:paddingTop="13dp"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+                android:text="Description"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+
+
+            <TextView
+                android:id="@+id/raiseddescription"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/button_back1"
+                android:imeOptions="actionDone"
+                android:inputType="phone"
+                android:paddingLeft="20dp"
+                android:paddingTop="13dp"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

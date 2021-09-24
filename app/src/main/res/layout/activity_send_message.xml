@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".subscriber.SendMessage"
+    android:background="@color/black"
+    android:id="@+id/rl_layout">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="40dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Send Message"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="Name"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp"/>
+
+            <EditText
+                android:id="@+id/subname"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/button_back1"
+                android:imeOptions="actionDone"
+                android:inputType="textPersonName"
+                android:paddingLeft="20dp"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+                android:text="Mobile Number"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+
+
+            <EditText
+                android:id="@+id/submobileno"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/button_back1"
+                android:imeOptions="actionDone"
+                android:inputType="phone"
+                android:paddingLeft="20dp"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+                android:text="EMail id"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+
+
+            <TextView
+                android:id="@+id/subemailid"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/button_back1"
+                android:imeOptions="actionDone"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="20dp"
+                android:paddingTop="13dp"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+                android:text="Subject"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+
+            <Spinner
+                android:id="@+id/spinner_subject"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:spinnerMode="dropdown"
+                android:background="@drawable/button_back1"
+                android:theme="@style/spinnerTheme"
+                android:popupBackground="#181818"></Spinner>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="25dp"
+                android:text="Message"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+
+
+            <EditText
+                android:id="@+id/submessage"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/button_back1"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:paddingLeft="20dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="20dp">
+
+        <Button
+            android:id="@+id/request"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/button_shap"
+            android:text="Raise Support Request"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

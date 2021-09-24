@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">The Tech Eye</string>
+
+    <string name="mobilenoerror">Enter a valid digit MobileNo</string>
+    <string name="bloodgroup">Enter a valid bloodgroup(O+)</string>
+    <string name="dlnumber">Enter a valid DLnumber</string>
+    <string name="emailerror">Enter a valid email</string>
+    <string name="name">Enter a valid name</string>
+    <string name="passport">Enter a valid passport number</string>
+    <string name="address">Enter a valid Address</string>
+    <string name="country">Enter a valid Country Name</string>
+    <string name="state">Enter a valid State Name</string>
+    <string name="city">Enter a valid City Name</string>
+    <string name="pincode">Enter a valid pincode</string>
+    <string name="password">Enter a valid Password</string>
+    <string name="confirmPassword">Enter a valid ConfirmPassword</string>
+
+    <string name="bankname">Enter a  Valide Bank Name</string>
+    <string name="holdername">Enter a  Valide Account Holder name </string>
+    <string name="accountno">Enter a  Valide Account Number </string>
+    <string name="confaccNumber">Enter a  Valide Confrom Account Number</string>
+    <string name="ifccode">Enter a  Valide Ifc Code Number</string>
+    <string name="Mobile">Enter a  Valide Mobile Number</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+</resources>
