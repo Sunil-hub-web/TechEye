@@ -123,14 +123,12 @@ public class Signin extends AppCompatActivity {
                        str_mobile = jsonObject1.getString ("mobile_number");
                        str_Aadhar_Number = jsonObject1.getString ("aadhar_number");
                        str_Passport_Number = jsonObject1.getString ("passport_number");
-                        String password = edit_Password.getText ().toString ().trim ();
+                       String password = edit_Password.getText ().toString ().trim ();
 
                         Login_ModelClass login_modelClass = new Login_ModelClass (str_id,password,str_name,str_email,str_mobile,
                                                                                     str_Aadhar_Number,str_Passport_Number);
 
                         SharedPrefManager.getInstance (Signin.this).userLogin (login_modelClass);
-
-
 
                         Toast.makeText (Signin.this, "success", Toast.LENGTH_LONG).show ( );
                         text_Message.setTextColor (Color.GREEN);
